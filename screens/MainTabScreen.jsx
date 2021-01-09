@@ -104,7 +104,7 @@ const DetailsStackScreen = ({ navigation }) => {
                 fontWeight: 'bold',
             }
         }}>
-            <DetailStack.Screen name="Home" component={Detailscreen} options={{
+            <DetailStack.Screen name="details" component={Detailscreen} options={{
                 title: "Detailpage",
                 headerLeft: () => (
                     <Icon.Button name="ios-menu" size={25} backgroundColor="#841584"
